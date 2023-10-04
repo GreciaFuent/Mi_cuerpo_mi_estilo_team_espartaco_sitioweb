@@ -1,0 +1,41 @@
+.nav {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: #1d1d1b;
+}
+
+.nav .close {
+    float: right;
+    width: 2.5em;
+    border: none;
+    font-size: 3rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.nav ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 7em;
+}
+
+.nav ul li a{
+    max-width: 95%;
+    font-size: 35px;
+    font-weight: 650;
+    color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    padding: .75em .5em;
+    display: block;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: hsla( 30.989010989010993,37.14285714285715%,48.0392156862745% ,1);
+}
+

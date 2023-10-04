@@ -1,0 +1,589 @@
+.principal_quines_somos {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+    /* color: hsla( 30,85.71428571428578%,97.25490196078431% ,1); */
+    padding-bottom: 3rem;
+}
+
+.principal_quines_somos .return {
+    float: left;
+    height: 3rem;
+    width: 5rem;
+    font-size: 45px;
+    border: none;
+    background-color: transparent;
+}
+
+
+.principal_quines_somos .h1_quienes_somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    text-align: center;
+    font-size: 43px;
+    font-weight: bolder;
+    margin: 0 0 1rem 0;
+    color: #1d1d1b;
+    background-color: hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+}
+
+.principal_quines_somos .div_explicacion {
+    margin: 0 1.5rem;
+}
+
+.principal_quines_somos .div_explicacion .p1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.principal_quines_somos .div_explicacion .p1 span {
+    font-weight: bold;
+}
+
+.principal_quines_somos .div_explicacion .parte1{
+    display: flex;
+    min-height: 5rem;
+    max-height: 20.2rem;
+    padding: .5rem 2rem;
+    justify-content: space-between;
+}
+
+
+.principal_quines_somos .div_explicacion .parte1 p {
+    width: 55%;
+    font-size: 26px;
+    overflow: hidden;
+    text-align: justify;
+    color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+}
+
+.principal_quines_somos .div_explicacion .parte1 img {
+    max-width: 40%;
+    max-height: 19rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.principal_quines_somos .div_explicacion .p2 {
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+.principal_quines_somos .div_explicacion .parte2{
+    display: flex;
+    flex-direction:row-reverse;
+    min-height: 5rem;
+    max-height: 20.2rem;
+    padding: .5rem 2rem;
+    justify-content: space-between;
+}
+
+
+.principal_quines_somos .div_explicacion .parte2 p {
+    width: 55%;
+    font-size: 26px;
+    overflow: hidden;
+    text-align: justify;
+    color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+}
+
+.principal_quines_somos .div_explicacion .parte2 img {
+    max-width: 40%;
+    max-height: 19rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.principal_quines_somos .div_explicacion .parte3{
+    display: flex;
+    min-height: 5rem;
+    max-height: 20.2rem;
+    padding: .5rem 2rem;
+    justify-content: space-between;
+}
+
+
+.principal_quines_somos .div_explicacion .parte3 p {
+    width: 55%;
+    font-size: 26px;
+    overflow: hidden;
+    text-align: justify;
+    color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+}
+
+.principal_quines_somos .div_explicacion .parte3 img {
+    max-width: 40%;
+    max-height: 19rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.principal_quines_somos .div_explicacion .p3 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (max-width: 520px) {
+    .principal_quines_somos .h1_costureras {
+        margin-top: 2rem;
+    }
+    .principal_quines_somos .div_tajertas_chisme {
+        display: grid;
+        grid-template-columns: 85%;
+        justify-items: center;
+        justify-content: center
+    }
+    .principal_quines_somos .div_explicacion .p1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        max-height: 90vh;
+        max-width: 85%;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1 p {
+        width: 100%;
+        font-size: 19px;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1 img {
+        min-width: 95%;
+        max-width: 40%;
+        max-height: 20rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        max-height: 100vh;
+        max-width: 85%;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2 p {
+        width: 100%;
+        font-size: 19px;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2 img {
+        min-width: 95%;
+        max-width: 40%;
+        max-height: 20rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .principal_quines_somos .div_explicacion .p2 {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .principal_quines_somos .div_explicacion .parte3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        max-height: 90vh;
+        max-width: 85%;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte3 p {
+        width: 100%;
+        font-size: 19px;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte3 img {
+        min-width: 95%;
+        max-width: 40%;
+        max-height: 20rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .principal_quines_somos .div_explicacion .p3 {
+        width: 100%;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    .principal_quines_somos .h1_costureras {
+        margin-top: 2rem;
+    }
+    .principal_quines_somos .div_tajertas_chisme {
+        display: grid;
+        grid-template-columns: 85%;
+        justify-items: center;
+        justify-content: center
+    }
+    .principal_quines_somos .div_explicacion .p1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 90vh;
+        max-width: 85%;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1 p {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1 img {
+        min-width: 95%;
+        max-width: 40%;
+        max-height: 20rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 96vh;
+        max-width: 85%;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2 p {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2 img {
+        min-width: 95%;
+        max-width: 40%;
+        max-height: 20rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .principal_quines_somos .div_explicacion .p2 {
+        width: 100%;
+        font-size: 19px;
+    }
+    .principal_quines_somos .div_explicacion .parte3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 96vh;
+        max-width: 85%;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte3 p {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte3 img {
+        min-width: 95%;
+        max-width: 40%;
+        max-height: 20rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .principal_quines_somos .div_explicacion .p3 {
+        width: 100%;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    .principal_quines_somos .div_tajertas_chisme {
+        display: grid;
+        grid-template-columns: 85%;
+        justify-items: center;
+        justify-content: center
+    }
+}
+
+
+@media only screen and (min-width: 650px) {
+    .principal_quines_somos .explicacion_chisme {
+        font-size: 25px;
+    }
+    .principal_quines_somos .div_tajertas_chisme{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 620px) {
+    .principal_quines_somos .div_explicacion .p1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1{
+        display: flex;
+        flex-direction: row;
+        min-height: 5rem;
+        max-height: 22rem;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1 p {
+        width: 55%;
+        font-size: 18px;
+        overflow: hidden;
+        text-align: justify;
+        color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1 img {
+        min-width: 39%;
+        max-width: 40%;
+        max-height: 22rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .p2 {
+        font-size: 1.5rem;
+        font-weight: 550;
+        text-align: center;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2{
+        display: flex;
+        flex-direction: row-reverse;
+        min-height: 5rem;
+        max-height: 22rem;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+    
+    .principal_quines_somos .div_explicacion .parte2 p {
+        width: 55%;
+        font-size: 18px;
+        overflow: hidden;
+        text-align: justify;
+        color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    }
+    
+    .principal_quines_somos .div_explicacion .p2 span {
+        font-weight: bold;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2 img {
+        min-width: 39%;
+        max-width: 40%;
+        max-height: 19rem;
+        border-radius: 10px;
+        background-color: #1d1d1b;
+        overflow: hidden;
+    }
+    
+
+    .principal_quines_somos .div_explicacion .parte3{
+        display: flex;
+        flex-direction: row;
+        min-height: 5rem;
+        max-height: 22rem;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte3 p {
+        width: 55%;
+        font-size: 18px;
+        overflow: hidden;
+        text-align: justify;
+        color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    }
+    
+    .principal_quines_somos .div_explicacion .parte3 img {
+        min-width: 39%;
+        max-width: 40%;
+        max-height: 22rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .p3 {
+        font-size: 1.5rem;
+        font-weight: 550;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 850px) {
+    .principal_quines_somos .h1_costureras {
+        font-size: 55px;
+    }
+
+    .principal_quines_somos .div_explicacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principal_quines_somos .div_explicacion .p1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .principal_quines_somos .div_explicacion .p1 span {
+        font-weight: bold;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1{
+        display: flex;
+        min-height: 5rem;
+        max-height: 28rem;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+    }
+    
+    
+    .principal_quines_somos .div_explicacion .parte1 p {
+        width: 55%;
+        font-size: 24px;
+        overflow: hidden;
+        text-align: justify;
+        color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    }
+    
+    .principal_quines_somos .div_explicacion .parte1 img {
+        min-width: 39%;
+        max-width: 40%;
+        max-height: 19rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .p2 {
+        font-size: 2rem;
+        font-weight: 550;
+        text-align: center;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2{
+        display: flex;
+        min-height: 5rem;
+        max-height: 28rem;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+    }
+    
+    
+    .principal_quines_somos .div_explicacion .parte2 p {
+        width: 55%;
+        font-size: 24px;
+        overflow: hidden;
+        text-align: justify;
+        color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    }
+    
+    .principal_quines_somos .div_explicacion .p2 span {
+        font-weight: bold;
+    }
+    
+    .principal_quines_somos .div_explicacion .parte2 img {
+        min-width: 39%;
+        max-width: 40%;
+        max-height: 19rem;
+        border-radius: 10px;
+        background-color: #1d1d1b;
+        overflow: hidden;
+    }
+
+    .principal_quines_somos .div_explicacion .parte3{
+        display: flex;
+        min-height: 5rem;
+        max-height: 28rem;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+    }
+    
+    
+    .principal_quines_somos .div_explicacion .parte3 p {
+        width: 55%;
+        font-size: 24px;
+        overflow: hidden;
+        text-align: justify;
+        color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    }
+    
+    .principal_quines_somos .div_explicacion .parte3 img {
+        min-width: 39%;
+        max-width: 40%;
+        max-height: 19rem;
+        overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .principal_quines_somos .div_explicacion .p3 {
+        font-size: 2rem;
+        font-weight: 550;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .principal_quines_somos .h1_ropa_temporada {
+        font-size: 55px;
+    }
+    
+    .principal_quines_somos .explicacion_chisme {
+        font-size: 30px;
+    }
+    .principal_quines_somos .div_tajertas_chisme {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3.5rem;
+    }
+    
+}

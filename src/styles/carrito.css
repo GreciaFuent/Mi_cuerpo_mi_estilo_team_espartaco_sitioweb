@@ -1,0 +1,117 @@
+.principal_carrito {
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    padding-bottom: 3rem;
+}
+
+.principal_carrito .return {
+    float: left;
+    height: 3rem;
+    width: 5rem;
+    font-size: 45px;
+    border: none;
+    background-color: transparent;
+}
+
+
+.principal_carrito .h1_carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    text-align: center;
+    color: #1d1d1b;
+    font-size: 43px;
+    font-weight: bolder;
+    margin: 0 0 1rem 0;
+    background-color: hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+}
+
+.principal_carrito .explicacion_carrito {
+    font-size: 25px;
+    margin: .5rem 1rem 1.5rem 1rem;
+    text-align: justify;
+}
+
+.principal_carrito .btn_total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    justify-self: end;
+    height: 4.5rem;
+    width: 9rem;
+    background-color: transparent;
+    font-size: 23px;
+    font-weight: 400;
+    border-radius: 15px;
+    margin-right: 2rem;
+    color: #1d1d1b;
+    border: 1px solid hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+    background-color: hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1) ;
+    cursor: pointer;
+}
+
+.principal_carrito .div_tajertas_chisme {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 1rem 3rem;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+@media only screen and (min-width: 520px) {
+    .principal_carrito .div_tajertas_chisme {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width: 650px) {
+    .principal_carrito .h1_carrito{
+        font-size: 65px;
+    }
+
+}
+
+@media only screen and (min-width: 670px) {
+    .principal_carrito .div_tajertas_chisme {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        justify-items: center;
+        justify-content: center
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .principal_carrito .div_tajertas_chisme {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        justify-items: center;
+        justify-content: center
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .principal_carrito .h1_carrito{
+        font-size: 80px;
+    }
+    
+    .principal_carrito .div_tajertas_chismes {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5rem;
+        justify-items: center;
+        justify-content: center
+    } 
+}

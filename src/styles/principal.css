@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400&family=Merriweather:ital,wght@0,300;1,300&family=Newsreader:wght@200;300;400&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Newsreader', serif;
+    font-family: 'Hanuman', serif; 
+    font-family: 'Merriweather', serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    color: #1d1d1b;
+    background-color: hsla( 30,85.71428571428578%,97.25490196078431% ,1);
+    padding-bottom: 3rem;
+}
+
+.principal .menu {
+    align-self: flex-end;
+    font-size: 32px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.principal .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    text-align: center;
+    color: #1d1d1b;
+    font-size: 43px;
+    font-weight: bolder;
+    margin: 0;
+    background-color: hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+}
+
+/* Seccion 1 */
+.principal .section_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 115vh;
+    max-height: 120vh;
+    margin-top: 1rem;
+    background-color: hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+    background-image: url('https://static.vecteezy.com/system/resources/previews/008/876/126/non_2x/crowd-of-different-people-of-different-races-body-types-person-with-disability-multicultural-society-social-diversity-of-people-in-modern-society-vector.jpg');
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+}
+
+.principal .section_1 .info_sitio {
+    height: 17rem;
+    text-align: center;
+    background-color: transparent;
+    background-color: rgba(111, 122, 113, 0.692);
+}
+
+.principal .section_1 .info_sitio .h4_info_sitio {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+.principal .section_1 .info_sitio .btn_quienes_somos button{
+    height: 5rem;
+    width: 11rem;
+    background-color: #1d1d1be7;
+    color: hsla( 30.989010989010993,37.14285714285715%,48.0392156862745% ,1);
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.principal .section_1 .info_sitio .parrafo_info_sitio {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Div categorias */
+
+.principal .div_categorias {
+    margin-top: 2rem;
+}
+
+.principal .div_categorias .h2_categorias {
+    font-size: 45px;
+    margin: 1rem 1.5rem ;
+    color: hsla( 30.989010989010993,37.14285714285715%,48.0392156862745% ,1);
+}
+
+.principal  .section_de_prendas {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: .5rem 3rem;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+/* Div tendencias */
+
+.principal .div_tendencias {
+    margin-top: 2rem;
+}
+
+.principal .div_tendencias .h2_tendicias {
+    font-size: 45px;
+    margin: 1rem 1.5rem ;
+    color: hsla( 30.989010989010993,37.14285714285715%,48.0392156862745% ,1);
+}
+
+.principal .section_de_tendencias {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: .5rem 3rem;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* Seccion 2 */
+
+.principal .section_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin-top: 3rem;
+    background-color: hsla( 130.90909090909088,4.721030042918456%,45.68627450980392% ,1);
+    background-image: url('https://www.dsigno.es/blog/wp-content/uploads/2017/07/Telas-tipicas-de-los-Andes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.principal .section_2 .costureras {
+    height: 16rem;
+    text-align: center;
+    background-color: transparent;
+    background-color: rgba(111, 122, 113, 0.692);
+}
+
+.principal .section_2 .costureras .h2_costureras {
+    font-size: 53px;
+    font-weight: 900;
+    margin: 1.5rem;
+}
+
+.principal .section_2 .costureras .parrafo_costureras {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.principal .section_2 .costureras .btn_saber_costureras button{
+    height: 4rem;
+    width: 11rem;
+    background-color: #1d1d1be7;
+    color: hsla( 30.989010989010993,37.14285714285715%,48.0392156862745% ,1);
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 520px) {
+    /* Seccion 1  */
+    .principal .section_1 .info_sitio {
+        height: 20rem;
+    }
+    .principal .section_1 .info_sitio .h4_info_sitio {
+        font-size: 20px;
+    }
+    .principal .section_1 .info_sitio .btn_quienes_somos button{
+        height: 3.5rem;
+        width: 11rem;
+        font-size: 23px;
+        font-weight: 700;
+        margin: 1rem;
+    }
+    .principal .section_1 .info_sitio .parrafo_info_sitio {
+        font-size: 17px;
+    }
+
+    /* Seccion 2 */
+    .principal .section_2 .costureras {
+        height: 20rem;
+    }
+    .principal .section_2 .costureras .h2_costureras {
+        font-size: 33px;
+        margin: 1rem;
+    }
+    .principal .section_2 .costureras .parrafo_costureras {
+        font-size: 17px;
+    }
+    .principal .section_2 .costureras .btn_saber_costureras button{
+        height: 3rem;
+        width: 11rem;
+        font-size: 23px;
+        font-weight: 700;
+        margin: 1rem;
+    }
+}
+
+
+
+@media only screen and (min-width: 520px) {
+    .principal .section_de_prendas {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+        justify-content: center;
+    }
+    /* Seccion 1  */
+    .principal .section_1 .info_sitio {
+        height: 17rem;
+    }
+    .principal .section_1 .info_sitio .h4_info_sitio {
+        font-size: 20px;
+    }
+    .principal .section_1 .info_sitio .btn_quienes_somos button{
+        height: 3.5rem;
+        width: 11rem;
+        font-size: 23px;
+        font-weight: 700;
+        margin: 1rem;
+    }
+    .principal .section_1 .info_sitio .parrafo_info_sitio {
+        font-size: 17px;
+    }
+
+    /* Seccion 2 */
+    .principal .section_2 .costureras {
+        height: 16rem;
+    }
+    .principal .section_2 .costureras .h2_costureras {
+        font-size: 33px;
+        margin: 1rem;
+    }
+    .principal .section_2 .costureras .parrafo_costureras {
+        font-size: 17px;
+    }
+    .principal .section_2 .costureras .btn_saber_costureras button{
+        height: 3rem;
+        width: 11rem;
+        font-size: 23px;
+        font-weight: 700;
+        margin: 1rem;
+    }
+    
+}
+
+
+@media only screen and (min-width: 650px) {
+    .principal .titulo {
+        font-size: 65px;
+    }
+    .principal .img_inicio {
+        width: 75%;
+        align-self: center;
+        margin-bottom: 2rem;
+    }
+    .principal .disclaimer {
+        width: 90%;
+        align-self: center;
+        font-size: 25px;
+    }
+    .principal .disclaimer::first-letter {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    .principal .advertencia {
+        margin: 0.5rem;
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    .principal .h4_explicacion {
+        width: 90%;
+        align-self: center;
+        font-size: 25px;
+    }
+    .principal .despedida {
+        width: 90%;
+        align-self: center;
+        font-size: 25px;
+    }
+    .principal .despedida::first-letter {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    /* Seccion 1  */
+    .principal .section_1 .info_sitio {
+        height: 17rem;
+    }
+    .principal .section_1 .info_sitio .h4_info_sitio {
+        font-size: 24px;
+    }
+    .principal .section_1 .info_sitio .btn_quienes_somos button{
+        height: 3.5rem;
+        width: 11rem;
+        font-size: 23px;
+        font-weight: 700;
+        margin: 1rem;
+    }
+    .principal .section_1 .info_sitio .parrafo_info_sitio {
+        font-size: 20px;
+    }
+
+    /* Seccion 2 */
+    .principal .section_2 .costureras {
+        height: 16rem;
+    }
+    .principal .section_2 .costureras .h2_costureras {
+        font-size: 43px;
+        margin: 1rem;
+    }
+    .principal .section_2 .costureras .parrafo_costureras {
+        font-size: 20px;
+    }
+    .principal .section_2 .costureras .btn_saber_costureras button{
+        height: 3rem;
+        width: 11rem;
+        font-size: 23px;
+        font-weight: 700;
+        margin: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 670px) {
+    .principal .section_de_prendas {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        justify-items: center;
+        justify-content: center
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .principal .section_de_prendas {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        justify-items: center;
+        justify-content: center
+    }
+    /* Seccion 1  */
+    .principal .section_1 .info_sitio .h4_info_sitio {
+        font-size: 30px;
+    }
+    
+    .principal .section_1 .info_sitio .btn_quienes_somos button{
+        height: 5rem;
+        width: 11rem;
+        font-size: 30px;
+        margin: 1rem;
+    }
+    
+    .principal .section_1 .info_sitio .parrafo_info_sitio {
+        font-size: 23px;
+    }
+
+    /* Seccion 2 */
+    .principal .section_2 .costureras .h2_costureras {
+        font-size: 53px;
+    }
+    .principal .section_2 .costureras .parrafo_costureras {
+        font-size: 23px;
+    }
+    .principal .section_2 .costureras .btn_saber_costureras button{
+        height: 4rem;
+        width: 11rem;
+        font-size: 30px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .principal .titulo {
+        font-size: 80px;
+    }
+    .principal .img_inicio {
+        width: 95%;
+        max-height: 27rem;
+        align-self: center;
+        margin-bottom: 2rem;
+    }
+    .principal .disclaimer {
+        width: 90%;
+        align-self: center;
+        font-size: 30px;
+    }
+    .principal .disclaimer::first-letter {
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .principal .advertencia {
+        margin: .5rem;
+        text-align: center;
+        font-size: 25px;
+    }
+    .principal .section_de_prendas {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5rem;
+        justify-items: center;
+        justify-content: center
+    }
+    .principal .h4_explicacion {
+        width: 90%;
+        align-self: center;
+        font-size: 28px;
+    }
+    .principal .despedida {
+        width: 90%;
+        align-self: center;
+        font-size: 30px;
+    }
+    .principal .despedida::first-letter {
+        font-size: 45px;
+        font-weight: 500;
+    }
+    
+}
