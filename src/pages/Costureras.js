@@ -10,9 +10,10 @@ function Costureras() {
             <h1 className="h1_costureras">Enlace con modistas y sastres</h1>
             
             <div className="div_explicacion">
-                <p className="p1">En nuestro viaje hacia una moda verdaderamente inclusiva, no solo nos apasiona abrir las puertas a las marcas que comparten nuestra visión, sino que también anhelamos esculpir un impacto duradero en la economía naranja de Quetzaltenango</p>
+                <p className="p1">En nuestro viaje hacia una moda verdaderamente inclusiva, no solo nos apasiona abrir las puertas a las marcas que comparten nuestra visión, sino que también anhelamos marcar un impacto duradero en la economía naranja de Quetzaltenango</p>
                 <div className="parte1">
-                    <p>Imagina un mundo donde la creatividad y la habilidad se entrelazan en un baile de colores y tejidos. Nosotros proponemos una alianza audaz, una sinfonía de talento y diseño en colaboración con los estudiantes de corte y confección de Intecap. En este rincón de oportunidad, vemos un lienzo en blanco esperando ser llenado con prendas únicas y adaptadas a las necesidades individuales de nuestros usuarios.</p>
+                    <p>
+Imagina un mundo donde la creatividad y la habilidad se fusionan en una explosión de colores y tejidos. Proponemos una audaz alianza con los estudiantes de corte y confección de Intecap. En este espacio de oportunidad, vemos un lienzo en blanco esperando ser llenado con prendas únicas y adaptadas a las necesidades individuales de nuestros usuarios.</p>
                     <img src="https://www.playerasmark.com/app/assets/media/2019/07/Conoce-las-ventajas-de-confeccionar-tu-propia-ropa.jpg"></img>
                 </div>
                 <div className="parte2">

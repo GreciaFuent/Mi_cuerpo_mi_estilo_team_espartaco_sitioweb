@@ -7,14 +7,14 @@ function Quienes_somos() {
             <h1 className="h1_quienes_somos">Quienes Somos</h1>
 
             <div className="div_explicacion">
-                <p className="p1">En un mundo donde la palabra 'inclusión' resuena por todos lados, ¿cuántas veces nos hemos detenido a hacernos la pregunta '<span>¿Qué tan incluyentes somos?</span>'? Esta pregunta se convirtió en un eco en nuestras mentes, una llamada a la acción, y así nació nuestro proyecto.</p>
+                <p className="p1">En un mundo donde la palabra 'inclusión' resuena por todos lados, cuántas veces nos hemos detenido a hacernos la pregunta '<span>¿Qué tan incluyentes somos?</span>' Esta pregunta se convirtió en un eco en nuestras mentes, una llamada a la acción, y así nació nuestro proyecto.</p>
                 <div className="parte1">
-                    <p>Somos un grupo de jóvenes emprendedores, soñadores que anhelan un mundo donde todos encuentren un lugar donde puedan ser ellos mismos al comprar ropa que se adapte a sus necesidades únicas. Imaginamos un espacio donde la moda abraza la diversidad, donde la talla no define la belleza, y donde la inclusión es más que una palabra: es una realidad.</p>
+                    <p>Somos un grupo de jóvenes emprendedores, soñadores que anhelan un mundo donde todos encuentren un lugar donde puedan ser ellos mismos al comprar ropa que se adapte a sus necesidades únicas. Imaginamos un espacio donde la moda abraza la diversidad, donde la talla no define la belleza y donde la inclusión es más que una palabra: es una realidad.</p>
                     <img src="https://img.freepik.com/fotos-premium/mujer-talla-grande-posando-estudio-lenceria_186382-33559.jpg"></img>
                 </div>
-                <p className="p2">Este es el nacimiento de 'Mi Cuerpo, Mi Estilo', un santuario virtual donde te invitamos a explorar un mundo de posibilidades. Aquí, la ropa no es solo una prenda, es una expresión de individualidad y autoconfianza. Ofrecemos tallas para todos los cuerpos, desde las tallas grandes hasta las petites, y también diseñamos soluciones para personas con discapacidades físicas, porque la moda es para todos.</p>
+                <p className="p2">Este es el nacimiento de 'Mi Cuerpo, Mi Estilo' un santuario virtual donde te invitamos a explorar un mundo de posibilidades. Aquí la ropa no es solo una prenda es una expresión de individualidad y autoconfianza. Ofrecemos tallas para todos los cuerpos; desde las tallas grandes hasta las petites y también diseñamos soluciones para personas con discapacidades físicas porque la moda es para todos.</p>
                 <div className="parte2">
-                    <p>Nuestra misión es clara y apasionada: brindar un entorno seguro, accesible, de calidad, influente y a la moda. Queremos que te sientas empoderado al comprar, que cada elección que hagas en nuestro sitio web sea un paso hacia la inclusividad, y que tu estilo sea una manifestación de tu auténtico yo.</p>
+                    <p>Nuestra misión es clara y apasionada: brindar un entorno seguro, accesible, de calidad, influente y a la moda. Queremos que te sientas empoderado al comprar que cada elección que hagas en nuestro sitio web sea un paso hacia la inclusividad y que tu estilo sea una manifestación de tu auténtico yo.</p>
                     <img src="https://ec.europa.eu/social/BlobServlet?mode=displayPicture&photoId=12546"></img>
                 </div>
                 <div className="parte3">
